@@ -149,7 +149,7 @@ fn correct<'a>(word: &'a String, candidates: &HashMap<&'a str, uint>) -> (String
        None => {
         if max_freq==0u {
           max_word = w;
-          max_freq = max_freq;
+          max_freq = 1u;
         }
        }
      }
